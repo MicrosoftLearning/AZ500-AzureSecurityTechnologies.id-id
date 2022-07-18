@@ -2,12 +2,12 @@
 lab:
   title: " 12 - Titik Akhir Layanan dan Mengamankan Penyimpanan"
   module: Module 03 - Secure data and applications
-ms.openlocfilehash: ef6f31230914c8c122015334e629dad5c54dfe8d
-ms.sourcegitcommit: 47a471392d8e979c08213fe7de3fcc296adc35da
+ms.openlocfilehash: 094c35e70258656693d64a816b9ed9382eade199
+ms.sourcegitcommit: 7c5e8e9a86553c6bd9b9a6651b60c6cb9676f0ff
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146453861"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "147168507"
 ---
 # <a name="lab-12-service-endpoints-and-securing-storage"></a>Lab 12: Titik Akhir Layanan dan Mengamankan Penyimpanan
 # <a name="student-lab-manual"></a>Panduan lab siswa
@@ -119,7 +119,7 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan dengan dua aturan keam
     |Langganan|nama langganan Azure yang Anda gunakan di lab ini|
     |Grup sumber daya|**AZ500LAB12**|
     |Nama|**myNsgPrivate**|
-    |Wilayah|**US Timur**|
+    |Wilayah|**AS Timur**|
 
 4. Klik **Review + create**, lalu klik **Create**.
 
@@ -195,13 +195,6 @@ Dalam tugas ini, Anda akan membuat grup keamanan jaringan dengan dua aturan keam
     |---|---|
     |Jaringan virtual|**myVirtualNetwork**|
     |Subnet|**Privat**|
-
-16. Pada panel **Subnet**, pilih **+ Kaitkan** dan tentukan pengaturan berikut di bagian **Kaitkan subnet**, lalu klik **OK**:
-
-    |Pengaturan|Nilai|
-    |---|---|
-    |Jaringan virtual|**myVirtualNetwork**|
-    |Subnet|**Publik**|
     
 #### <a name="task-4-create-a-storage-account-with-a-file-share"></a>Tugas 4: Membuat akun penyimpanan dengan berbagi file
 
@@ -442,7 +435,7 @@ Dalam tugas ini, Anda akan terhubung ke komputer virtual myVMPrivate melalui Des
 
 **Membersihkan sumber daya**
 
-> Jangan lupa untuk menghapus sumber daya Azure yang baru dibuat dan yang tidak diperlukan lagi. Menghapus sumber daya yang tidak terpakai memastikan Anda tidak akan dikenakan biaya tidak terduga. 
+> Jangan lupa untuk menghapus sumber daya Azure yang baru dibuat dan yang tidak diperlukan lagi. Menghapus sumber daya yang tidak terpakai memastikan Anda tidak akan dikenakan biaya tak terduga. 
 
 1. Buka Cloud Shell dengan mengklik ikon pertama di kanan atas Portal Azure. Jika diminta, pilih **PowerShell** dan **Buat penyimpanan**.
 
